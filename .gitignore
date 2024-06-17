@@ -1,0 +1,50 @@
+# Ignore object files and static libraries
+*.o
+*.a
+*.obj
+
+# Ignore dynamically linked libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore compiled executables
+*.exe
+*.out
+*.app
+
+# Ignore debugging and profiling files
+*.dSYM/
+*.prof
+
+# Ignore core dumps
+core
+*.core
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Ignore dependency and build files
+*.d
+*.dep
+*.dwo
+*.dylib
+*.map
+*.swo
+
+# Ignore generated files from common build systems
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/build/
+/bin/
+/lib/
+/obj/
+/Debug/
+/Release/
+
+tcpdump-tcpdump-4.99.4/output
